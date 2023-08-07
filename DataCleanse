@@ -1,43 +1,4 @@
-
-Experiencing skipped records during a data migration process can be a concerning situation. To course-correct and address the issue, follow these steps:
-
-Identify the Scope of Skipped Records:
-Determine the extent of the problem by identifying the number of skipped records and the specific tables or data sources affected.
-
-Isolate the Cause:
-Investigate the root cause of the skipped records. Common reasons for skips include technical errors, data validation issues, or constraints in the migration process.
-
-Implement Data Validation Checks:
-Set up robust data validation checks to prevent skipping records in the future. This may involve verifying data integrity, identifying duplicate entries, and ensuring proper handling of foreign key constraints.
-
-Isolate Affected Data:
-Create a list of all records that were skipped during the initial migration. This will help you track the missing data and prioritize recovery efforts.
-
-Back up Original Data:
-Ensure that you have a backup of the original data before the migration started. This will serve as a reference point and enable you to recover the missing records.
-
-Evaluate and Test Fixes:
-Once you have identified the cause of the skips, develop and test potential fixes to recover the missing records. This could involve running data migration scripts again, adjusting migration settings, or using data recovery techniques.
-
-Validate Data Integrity:
-After implementing the fixes, validate the migrated data to ensure that the missing records are now included correctly.
-
-Communicate with Stakeholders:
-Keep all relevant stakeholders, such as the project team, management, and end-users, informed about the situation, progress, and any potential impact on downstream systems or processes.
-
-Plan a Rollback Strategy (if necessary):
-In case the fixes are not successful or lead to unforeseen issues, have a well-defined rollback plan to revert to the previous state and avoid further data corruption.
-
-Perform Post-Migration Auditing:
-Conduct a post-migration audit to review the entire process and identify areas for improvement. Use the lessons learned to enhance future migration processes.
-
-Ensure Regular Data Backups:
-Establish a routine data backup schedule to maintain data redundancy and facilitate easy recovery in case of any future issues.
-
-Perform Data Reconciliation:
-Once the migration is complete, perform data reconciliation to verify that all records are correctly migrated and accounted for.
-
-Update Documentation:
-Update the migration documentation to reflect the issues encountered, their resolutions, and any process changes made to prevent similar problems in the future.
-
-Remember, data migration is a complex process, and unforeseen issues can arise. By following these steps, you can effectively course-correct, recover the missing records, and minimize the impact of skipped data.
+SELECT *
+FROM Long_isLand
+WHERE Service_Record_Modified_Date >= TO_DATE('2023-04-01', 'YYYY-MM-DD')
+  AND Service_Record_Modified_Date <= TO_DATE('2023-08-31', 'YYYY-MM-DD');
