@@ -1,0 +1,29 @@
+**User Story:** As a Restoration Construction Supervisor, I want to receive prompt alerts for same-day restoration requests through the main SalesForce Dispatch Console App. This will enable me to efficiently assess the urgency of the request and dispatch a paving order to the appropriate restoration crew lead, ensuring timely and effective response to urgent restoration needs.
+
+**Acceptance Criteria:**
+1. As a Restoration Construction Supervisor, upon logging into the SalesForce Dispatch Console App, I should have a dedicated section or dashboard that displays incoming restoration requests in real-time.
+
+2. When a same-day restoration request is received, the Dispatch Console App should immediately trigger a notification or alert to inform me about the new request. This alert can be in the form of a pop-up, notification badge, or sound, ensuring I am promptly aware of the urgency.
+
+3. The alert/notification should include essential details about the restoration request:
+   - Date and time of the request
+   - Location details (address, project site area)
+   - Nature of restoration needed (e.g., asphalt repair, concrete replacement)
+   - Estimated scope of work (in square feet or meters)
+   - Contact information for the requester
+
+4. Upon receiving the alert, I should be able to directly access the restoration request details from the Dispatch Console App with a single click.
+
+5. Within the restoration request details view, there should be an option for me to review any attached images, documents, or notes provided by the requester. This information will assist in assessing the severity and scope of the restoration work required.
+
+6. Based on the urgency and details of the restoration request, I should have the ability to create a new paving order from within the Dispatch Console App. This order will specify the work that needs to be done, materials required, and other relevant instructions.
+
+7. While creating the paving order, I should be able to assign it to the appropriate restoration crew lead directly from the Dispatch Console App. This assignment should trigger a notification to the selected crew lead, notifying them of the new paving order.
+
+8. The Dispatch Console App should provide a clear overview of all active and pending paving orders related to restoration requests. This overview will allow me to monitor the progress of the orders and ensure they are being addressed in a timely manner.
+
+9. If there are any updates or changes to the restoration request or the assigned paving order, I should have the ability to communicate these changes to the restoration crew lead through the app. This could include updates to the scope of work, scheduling adjustments, or other relevant information.
+
+10. In case of any issues or questions from the restoration crew lead regarding the assigned paving order, I should be able to directly communicate with them through the Dispatch Console App for quick resolution.
+
+**Note:** The primary goal of this user story is to streamline the process of receiving, assessing, and dispatching same-day restoration requests for a Restoration Construction Supervisor using the SalesForce Dispatch Console App. The focus is on providing efficient tools to manage urgent restoration needs and facilitate effective communication and coordination among project stakeholders.
