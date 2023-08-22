@@ -1,0 +1,31 @@
+User Story: As a Restoration Supervisor responsible for overseeing restoration projects, I want to receive same-day paving requests from the paving dispatcher through the SalesForce Field Service Management App, complete with a unique Paving Request Number. This will enable me to efficiently track, prioritize, and manage restoration projects that require immediate attention.
+
+Acceptance Criteria:
+
+When I log in to the SalesForce Field Service Management App as a Restoration Supervisor, I should have a dedicated section or dashboard where incoming paving requests are displayed.
+
+The app should allow the paving dispatcher to create and assign same-day paving requests specifically marked as urgent. Upon the creation of such a request, a unique Paving Request Number should be generated automatically. This number will serve as an identifier for the request.
+
+When a new same-day paving request is assigned to me as a Restoration Supervisor, I should receive a real-time notification or alert through the app. This alert should include essential information about the request, such as the Paving Request Number, location details, and urgency level.
+
+Within the app, I should be able to access the details of the paving request by selecting it from the dedicated section or dashboard. The request details should include:
+
+Paving Request Number
+Date and time of the request
+Location information (address, project site area)
+Type of restoration needed (e.g., asphalt repair, concrete replacement)
+Estimated scope of work (in square feet or meters)
+Contact information for the paving dispatcher
+The app should allow me to acknowledge the receipt of the paving request. This acknowledgment will notify the paving dispatcher that I am aware of the request and ready to take action.
+
+If additional information or attachments are needed to proceed with the restoration work, I should have the option to request these from the paving dispatcher through the app.
+
+The Paving Request Number should serve as a reference for tracking and reporting purposes. The app should include a search or filter functionality that allows me to quickly locate and access details related to specific Paving Request Numbers.
+
+If there are any updates, changes, or questions related to the paving request, I should have the ability to communicate with the paving dispatcher directly through the app for timely resolution.
+
+Once the restoration project is completed, I should be able to update the status of the paving request within the app. This could include marking the request as "Completed" or "In Progress," as well as providing relevant notes or comments.
+
+The app should provide a clear overview of all active and completed paving requests, allowing me to monitor the progress of restoration projects and ensure they are being handled effectively.
+
+Note: The main focus of this user story is to ensure that the Restoration Supervisor can seamlessly receive and manage same-day paving requests through the SalesForce Field Service Management App, while also having a unique identifier (Paving Request Number) to aid in tracking and communication. The goal is to enhance efficiency and collaboration in addressing urgent restoration needs.
