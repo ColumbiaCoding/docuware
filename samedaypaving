@@ -1,0 +1,32 @@
+User Story: As a Construction Supervisor in charge of project execution, I want to be able to submit a same-day paving request through a dedicated button in the SalesForce Field Service Management App. This functionality will allow me to efficiently communicate urgent paving needs to the appropriate teams and ensure seamless coordination for immediate action.
+
+Acceptance Criteria:
+
+When I log in to the SalesForce Field Service Management App as a Construction Supervisor, I should see a clearly labeled button on the home screen or main dashboard specifically for submitting same-day paving requests.
+
+Upon clicking the "Submit Paving Request" button, a new form should appear, prompting me to provide essential information about the request:
+
+Date of the requested paving
+Location details (address, specific area within the project site)
+Type of paving needed (e.g., asphalt, concrete)
+Estimated area to be paved (in square feet or meters)
+Urgency level (e.g., high, medium, low)
+The form should also include an option to attach relevant images or documents that can help clarify the paving requirements, such as project plans, diagrams, or photos.
+
+Once I have filled in the required information and attached any necessary files, I should be able to review the request details before final submission.
+
+After confirming the request details, upon clicking the "Submit" button, a confirmation notification should appear, acknowledging that the same-day paving request has been successfully submitted.
+
+Simultaneously, the submitted request should trigger an immediate notification to the appropriate teams responsible for paving operations and logistics. This notification should include all the information provided in the request, as well as the urgency level specified.
+
+The SalesForce Field Service Management App should have a dedicated section where I can track the status of my submitted paving requests, including updates on acceptance, scheduling, and completion.
+
+If there are any changes or updates to the paving request, such as rescheduling or modifications to the request details, the app should allow me to edit the request information and communicate these changes effectively to the relevant teams.
+
+In case of any issues or questions related to the submitted request, I should have the option to contact the responsible team directly through the app for timely resolution.
+
+Note: The primary objective of this user story is to streamline the process of submitting and managing same-day paving requests for Construction Supervisors using the SalesForce Field Service Management App. The focus is on providing an intuitive and efficient tool to communicate urgent paving needs and facilitate smooth coordination among project stakeholders.
+
+
+
+
