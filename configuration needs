@@ -1,38 +1,6 @@
-User Story: Configuring New Order Type, Record Type, and Work Type for Same-Day Paving Request
-
-As a developer working on Same Day Paving Solution, I want to configure all the necessary items to enable the creation of a new order type, record type, and work type specifically for handling same-day paving requests, so that our construction teams can efficiently manage and track these requests.
-
-Acceptance Criteria:
-
-AC1: Order Type Configuration:
-   - I can create a new "Same-Day Paving" order type in the system.
-   - The "Same-Day Paving" order type should have a unique identifier and a user-friendly name.
-   - It should be possible to assign relevant properties, such as priority, to the "Same-Day Paving" order type.
-   - The order type should be configurable to include custom fields or attributes that are specific to same-day paving requests.
-
-2. Record Type Configuration:
-   - I can define a new "Same-Day Paving Record" type that corresponds to the "Same-Day Paving" order type.
-   - The record type should inherit properties from the order type, including its unique identifier.
-   - It should allow for the customization of fields and data points that need to be captured when creating a same-day paving request record.
-
-3. Work Type Configuration:
-   - I can establish a new "Same-Day Paving Work" type.
-   - The work type should be linked to the "Same-Day Paving" order type and "Same-Day Paving Record" type.
-   - It should include specific task templates or predefined steps relevant to same-day paving projects.
-   - The work type configuration should enable the assignment of teams or individuals responsible for executing same-day paving requests.
-
-4. Integration with Other Modules:
-   - Ensure that the new order type, record type, and work type are integrated seamlessly with other relevant modules of the construction project management software, such as scheduling, resource allocation, and reporting.
-
-5. Testing and Validation:
-   - Thoroughly test the configuration to ensure that all elements are functioning as expected.
-   - Validate that the "Same-Day Paving" order type, record type, and work type can be used in creating, managing, and tracking same-day paving requests without any issues.
-
-6. Documentation:
-   - Provide clear and comprehensive documentation for administrators and end-users on how to use the newly configured items for same-day paving requests.
-   - Include any necessary guidelines for maintenance and updates.
-
-7. Review and Approval:
-   - Seek input and approval from relevant stakeholders, including project managers and construction teams, to ensure that the configuration aligns with their requirements and workflows.
-
-By completing this user story, we aim to enhance our construction project management software by enabling efficient handling of same-day paving requests, improving our ability to meet tight project timelines and client demands.
+Modifications to Raise new work for M&C record types 
+The new order type is an option for user to select
+Show the fields related to selecting the Vendor -Contractor group and Paving code (Service item) (Input needed from Nick).
+When selected modify the flow to ask the questions for restoration request flow. Set attribute flag to true - same day restoration
+Show the question - do you want to add another same day restoration request. If yes, iterate through the restoration request flow to capture new data.
+All for multiple same day restoration request records to be created as WOLI to the parent same day restoration workorder.Create the Same day restoration workorder and WOLI in complete status (Let's discuss on this)
