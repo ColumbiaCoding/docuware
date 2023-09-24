@@ -1,44 +1,4 @@
-Modifications to Enable New Work for M&C Record Types
-
-As a developer tasked with enhancing our FSL, I want to make modifications to facilitate the creation of new work orders for M&C (Maintenance & Construction) record types. This includes the introduction of a new order type as an option for users to select. When this order type is chosen, specific fields related to the Vendor-Contractor group and Paving code (Service item) should be displayed, and if selected, the flow should be adjusted to capture data for a same-day restoration request. Additionally, the system should allow for the creation of multiple same-day restoration request records associated with a parent same-day restoration work order (WOLI), with both the work order and WOLI set to "complete" status.
-
-**Acceptance Criteria:**
-
-AC1. New Order Type Introduction:
-   - A new order type, named "Same-Day Restoration," is added as an option for users to select when creating work orders.
-   - The "Same-Day Restoration" order type should have a unique identifier and be easily recognizable to users.
-
-AC2. Display Relevant Fields:
-   - When the "Same-Day Restoration" order type is selected, the system should display fields related to the Vendor-Contractor group and Paving code (Service item).
-   - Users should be able to select a Vendor-Contractor group and a Paving code from predefined options.
-
-AC3. Flow Modification for Restoration Request:
-   - If a user selects the "Same-Day Restoration" order type, the workflow should be adjusted to initiate the restoration request flow.
-   - A flag, such as "Same Day Restoration Flag," should be set to true to indicate that this is a same-day restoration request.
-
-AC4. Capture Restoration Request Data:
-   - Users should be prompted with questions specific to a same-day restoration request, including details like restoration type, location, and urgency.
-   - All necessary data related to the same-day restoration request should be captured accurately.
-
-AC5. Adding Multiple Restoration Requests:
-   - After capturing data for the first same-day restoration request, users should be presented with a question: "Do you want to add another same-day restoration request?".
-   - If the user selects "yes," the system should iterate through the restoration request flow to capture new data for additional restoration requests.
-
-AC6. Parent-Child Relationship:
-   - Each same-day restoration request should be recorded as a Work Order Line Item (WOLI).
-   - A parent same-day restoration work order should be created to group all related WOLIs.
-   - The system should allow for multiple same-day restoration request records to be associated with the same parent same-day restoration work order.
-
-AC7. Completion Status:
-   - When all necessary data for each same-day restoration request is captured, the parent same-day restoration work order and associated WOLIs should be set to a "complete" status.
-
-AC8. Testing and Validation:
-   - Thoroughly test the modified workflow to ensure that it functions as expected and captures all necessary data accurately.
-   
-AC9. **Documentation:**
-   - Provide clear documentation for administrators and end-users explaining how to use the new "Same-Day Restoration" order type and the modified workflow for capturing same-day restoration requests.
-
-AC10. **Review and Approval:**
-    - Seek input and approval from relevant stakeholders, including M&C teams and users, to ensure that the modifications align with their requirements and workflows.
-
-By implementing these changes, we aim to streamline the process of handling same-day restoration requests within our construction project management software, improving efficiency and user experience for our maintenance and construction teams.
+Same day Paving Request Payload generation
+Mapping updates for this new order type and WOLI
+Payload generation and callout
+Integration with maximo
