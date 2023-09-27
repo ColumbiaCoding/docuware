@@ -1,0 +1,7 @@
+Multiple sessions opening on a database refer to the concurrent connections or sessions that are established by various users or applications to interact with a database management system (DBMS). Each session represents a separate instance of a program or application communicating with the database, allowing users to perform various database operations such as querying, updating, inserting, or deleting data. Here are some key points about multiple sessions opening on a database:
+
+Concurrent Access: Multiple sessions allow multiple users or processes to access the database simultaneously. This concurrent access is essential in multi-user database environments to support real-time applications and accommodate multiple requests.
+
+Isolation: Each session is typically isolated from the others, meaning that the data accessed and manipulated in one session is not directly visible or affected by the actions in other sessions until changes are committed to the database.
+
+Resource Management: The database management system (DBMS) is responsible for
