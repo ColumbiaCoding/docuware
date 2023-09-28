@@ -5,3 +5,22 @@ Concurrent Access: Multiple sessions allow multiple users or processes to access
 Isolation: Each session is typically isolated from the others, meaning that the data accessed and manipulated in one session is not directly visible or affected by the actions in other sessions until changes are committed to the database.
 
 Resource Management: The database management system (DBMS) is responsible for
+
+
+**
+
+Hi team,
+
+I am follow up on the previous email sent regarding the opening multiple sessions that Docuware causes onto our databases. 
+
+It appears the database connector from Docuware to our IBM Cloud solution, keeps the sessions open. This issue of multiple sessions using database connection has introduced several problems and challenges.
+
+The number of sessions are measured in the amount 100+, and the response times for individual queries may increase due to increased contention for database resources. As a result in slower application performance.
+
+Our users have experienced deadlock, which  occurs when two or more sessions are waiting for each other to release locks, preventing any of them from making progress. Detecting and resolving deadlocks can be complex and can impact overall system stability.
+
+We need you're immediate support on this issue. Could you please let me know if you're available to meet tomorrow morning at 9:00am?
+
+Regards,
+
+Gabriel
