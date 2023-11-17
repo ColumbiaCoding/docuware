@@ -1,0 +1,13 @@
+ We have a specific requirement related to the integration between DocuWare and Maximo, and I believe your expertise could be instrumental in addressing it.
+
+We are currently exploring the DocuWare to Maximo API, specifically the POST functionality. Our goal is to better understand the payload structure required for successful API calls and to confirm the key-value pairs in the response payload.
+
+Could you please take some time to research the DocuWare to Maximo API POST method? Additionally, once you've obtained the necessary information, kindly respond to this email with the payload of a sample API call. This will allow us to review and confirm the key-value pairs in the response.
+
+XHR stands for "XMLHttpRequest," and it is not a language but rather an API (Application Programming Interface) provided by web browsers. XMLHttpRequest is a JavaScript object that allows client-side scripts to make asynchronous HTTP requests to a server. This technology is commonly used in web development to create dynamic and interactive web pages.
+
+XHR is a key component of AJAX (Asynchronous JavaScript and XML), a set of web development techniques that enable web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes. This allows for a more responsive and interactive user experience without requiring a full page reload.
+
+While the name "XML" is in XMLHttpRequest, it doesn't mean that it can only handle XML data. Originally, the API was designed to work with XML, but it can handle various data formats, such as JSON (JavaScript Object Notation), HTML, plain text, and others.
+
+To summarize, XHR is a JavaScript API that enables client-side scripts to make HTTP requests to a server asynchronously, facilitating the development of dynamic and responsive web applications.
