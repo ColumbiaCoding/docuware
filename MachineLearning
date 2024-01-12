@@ -1,0 +1,11 @@
+Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to perform tasks without explicit programming. The primary goal of machine learning is to allow computers to learn and improve from experience, enabling them to make predictions or decisions based on data.
+
+There are three main types of machine learning:
+
+1. **Supervised Learning:** In this approach, the algorithm is trained on a labeled dataset, where each input is associated with the corresponding output. The algorithm learns to map the input data to the correct output by generalizing from the labeled examples.
+
+2. **Unsupervised Learning:** Here, the algorithm is given unlabeled data and must find patterns or relationships within the data on its own. Clustering and dimensionality reduction are common tasks in unsupervised learning.
+
+3. **Reinforcement Learning:** This type of learning involves an agent that learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on its actions, and it learns to maximize cumulative rewards over time.
+
+Machine learning is applied in various domains, including image and speech recognition, natural language processing, recommendation systems, autonomous vehicles, and many others. It plays a crucial role in making predictions and decisions based on complex data sets.
